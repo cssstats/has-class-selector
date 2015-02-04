@@ -13,10 +13,10 @@ npm install --save has-class-selector
 ## Usage
 
 ```javascript
-var hasClassSelector = require('has-class-selector');
+var hasClassSelector = require('has-class-selector')
 
-hasClassSelector('.foo#bar');      // => true
-hasClassSelector('#foobar > li');  // => false
+hasClassSelector('.foo#bar')      // => true
+hasClassSelector('#foobar > li')  // => false
 ```
 
 ## License
